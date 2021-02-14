@@ -18,4 +18,4 @@ deploy:
     docker push register.heroku.com/$HEROKU_APP_NAME/web;
     heroku run --app $HEROKU_APP_NAME rails db:migrate;
   on:
-    branch: master
+    branch: masterS
